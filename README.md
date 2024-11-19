@@ -30,7 +30,7 @@ To play the game, you need Python installed on your computer. 💻
 2. **Clone the Repository**:  
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/krishna180/Adventure.git
+   git clone https://github.com/krishna180/Adventure-Game.git
    ```
 
 3. **Navigate to the Game Directory**:  

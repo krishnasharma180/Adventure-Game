@@ -6,6 +6,9 @@ life = 3
 
 print("|{: ^100}|\n".format(str))
 print("|{:*^100}|\n".format(str2))
+
+#Asking user if it wants to take participate in game or not
+
 a = input(("DO YOU WANT TO TAKE PART IN THE ADVENTURE (\033[32;1myes\033[m/\033[91;1mno\033[m)? ")).lower()
 
 if a=="yes":
@@ -80,9 +83,8 @@ if ans=="yes":
       print("/|\\")
       print("/ \\")
     print("\033[91;1m\n<-O->","\/|\/"," / \\\033[m",sep="\n")  
-   #  print("<-O->")
-   #  print("\/|\\/")
-   #  print(" / \\")
+    
+    
     fig = True
     
     #loop for the options accordingly 
@@ -92,9 +94,6 @@ if ans=="yes":
           print(  )
           if fight=='b':
             print("|{:*^130}|".format("\033[91;1mOops opponent hits you first you loose a life\033[m"))
-            # print("<-O->")
-            # print("\/|\\/")
-            # print(" / \\")
             print("\033[91;1m<-O->","\/|\/"," / \\\033[m",sep="\n")
             print("O",end="")
             print("/",end="")
@@ -117,10 +116,6 @@ if ans=="yes":
                print("/O\\")
                print("/|\\")
                print("/ \\")
-            # print("<-O->",end="")
-            # print("/",end="")
-            # print("---",end="")
-            # print("\\")
             print("\033[91;1m<-O->","/","---\033[m")
           
         
@@ -183,9 +178,6 @@ if ans=="yes":
     print("\n|{:*^80}|\n".format(" The Morning arrives You continue with your journey "))
     print("On your way you find a wise old man\n")
     print("\033[1m  /O\\","|\/|\\","| / \\\033[m",sep="\n")
-   #  print("  /O\\")
-   #  print("|\/|\\")
-   #  print("| / \\")
     print("\nQld man: 'Hellow young man you must be searching for the precious stone i can give you  that but first you have to answer my queston\n")
     q = True
     while q:
@@ -195,14 +187,8 @@ if ans=="yes":
             print("Old man: 'You are right, as i promised here is the stone you need")
             print( )
             if char=="a":
-                  # print("  /O\\    O")
-                  # print("|\/|\\/*\/|\\")
-                  # print("| / \   / \\")
                   print("\033[1m  /O\\    O","|\/|\/*\/|\\","| / \   / \\\033[m",sep="\n")
             elif char=="b":
-                  # print("  /O\\   /O\\")
-                  # print("|\/|\\/*\/|\\")
-                  # print("| / \   / \\")
                   print("\033[1m  /O\\   /O\\","|\/|\/*\/|\\","| / \   / \\\033[m",sep="\n")
             q =False
          else:
